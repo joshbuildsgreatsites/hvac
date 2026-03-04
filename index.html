@@ -593,17 +593,33 @@
 
     /* ── MOBILE ── */
     @media (max-width: 768px) {
-      nav { padding: 14px 20px; }
+      nav { padding: 14px 20px; justify-content: space-between; }
       .nav-links { display: none; }
-      .hero-content { padding: 140px 24px 80px; }
-      .trust-bar { padding: 20px 24px; flex-direction: column; align-items: flex-start; gap: 16px; }
+      .nav-phone { font-size: 16px; }
+      .btn-primary { padding: 10px 16px; font-size: 14px; }
+      .hero-content { padding: 140px 24px 80px; text-align: center; }
+      .hero-badge { margin: 0 auto 24px; }
+      .hero-sub { margin: 0 auto 40px; }
+      .hero-btns { justify-content: center; flex-direction: column; align-items: center; }
+      .hero-btns a { width: 100%; text-align: center; }
+      .hero-stats { justify-content: center; gap: 24px; flex-wrap: wrap; }
+      .trust-bar { padding: 20px 24px; flex-direction: column; align-items: center; gap: 16px; text-align: center; }
+      .trust-item { flex-direction: column; text-align: center; }
       .trust-divider { display: none; }
       .reviews-strip { padding: 16px 24px; flex-direction: column; gap: 8px; text-align: center; }
-      .services { padding: 60px 24px; }
-      .why-us { grid-template-columns: 1fr; padding: 60px 24px; gap: 40px; }
-      footer { padding: 40px 24px 24px; }
+      .services { padding: 60px 24px; text-align: center; }
+      .section-sub { margin: 0 auto 56px; }
+      .service-card { text-align: center; }
+      .why-us { grid-template-columns: 1fr; padding: 60px 24px; gap: 40px; text-align: center; }
+      .why-item { flex-direction: column; align-items: center; text-align: center; }
+      .why-check { margin: 0 auto 8px; }
+      .cta-box-title { text-align: center; }
+      .cta-box-sub { text-align: center; }
+      footer { padding: 40px 24px 24px; text-align: center; }
       .footer-top { grid-template-columns: 1fr; gap: 32px; }
+      .footer-col h4 { display: block; }
       .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+      .license-badges { justify-content: center; }
     }
   </style>
 </head>
